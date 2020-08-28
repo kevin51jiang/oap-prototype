@@ -1,0 +1,11 @@
+.date-picker {
+  display: flex;
+  .date-block {
+    // flex: 1;
+    margin-right: 0.5rem;
+
+    input {
+      display: inline-block;
+    }
+  }
+}

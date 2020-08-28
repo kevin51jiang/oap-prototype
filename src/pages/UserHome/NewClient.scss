@@ -1,0 +1,28 @@
+.new-client {
+  align-items: center;
+
+  button {
+    background-color: transparent;
+    border: none;
+    margin: auto;
+    display: block;
+    .desc {
+      display: block;
+      margin: auto;
+      text-align: center;
+    }
+
+    .big-icon {
+      transition-duration: 500ms;
+      &:hover {
+        transition-duration: 500ms;
+        color: #999999;
+      }
+      // padding: 1em;
+      cursor: pointer;
+      display: block;
+      margin: auto;
+      font-size: 8em;
+    }
+  }
+}

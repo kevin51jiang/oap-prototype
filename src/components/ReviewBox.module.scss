@@ -1,0 +1,20 @@
+.reviewBox {
+  border-left: 4px solid #1a1a1a;
+  background-color: #f2f2f2;
+
+  padding-left: 1rem;
+
+  margin-bottom: 1rem;
+
+  div {
+    border-bottom: 2px solid #999999;
+    padding: 0.5rem 0;
+    &:last-of-type {
+      border-bottom: none;
+    }
+  }
+}
+
+.title {
+  float: left;
+}

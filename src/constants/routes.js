@@ -1,0 +1,65 @@
+export const LANDING = "/";
+export const SIGN_UP = "/signup";
+export const SIGN_IN = "/signin";
+export const SIGN_IN_EMAIL_PASS = "/signin/email";
+export const SIGN_IN_AUTH_APP = "/signin/auth-app";
+export const SIGN_IN_EMAIL_LINK = "/signin/email-link";
+export const HOME = "/home";
+export const ACCOUNT = "/account";
+export const DASHBOARD = "/dashboard";
+export const ADMIN = "/admin";
+export const PASSWORD_FORGET = "/pw-forget";
+
+export const HOW_TO_REGISTER_WAITLIST = "/how-to-register-waitlist";
+export const HOW_TO_REGISTER_OAP = "/how-to-register-oap";
+export const WHO_RECEIVES_SERVICES = "/who-receives-services";
+export const FIND_EXISTING_INFO = "/find-existing-info";
+export const VIEW_MESSAGES = "/messages";
+export const CONFIRM_DETAILS = "/confirm-details";
+export const EMAIL_VERIFICATION = "/email-verification";
+export const CONNECT_INFO_TO_PS_ACCOUNT = "/connect-info-to-ps-account";
+export const MANAGE_EXPENSES = "/expense-management";
+export const EXPENSE_CATEGORY = "/expense-selection";
+export const EXPENSE_SUB_CATEGORY = "/expense-sub-selection";
+export const ADD_SERVICE_PROVIDER = "/expense-provider";
+export const ADD_SERVICE_PROVIDER_ALT = "/expense-provider-alt";
+export const EXPENSE_DETAILS = "/expense-details";
+export const REVIEW_EXPENSE = "/expense-review";
+export const EXPENSE_ADDED = "/expense-submitted";
+export const PERSONAL_EXPENSE_REVIEW = "/personal-review";
+export const MANAGE_EXPENSES_ALT = "/expenses-management";
+export const REVIEW_PERSONAL_DETAILS = "/review-personal-details";
+export const REVIEW_EXPENSES_FINAL = "/review-expenses";
+export const REVIEW_EXPENSE_SUBCAT = "/review-expenses/subcategory";
+export const REVIEW_EXPENSE_SINGULAR = "/review-expenses/subcategory/expense";
+export const FINALIZE_AND_SUBMIT_EXPENSES = "/finalize-and-submit";
+
+// flow 3 things
+export const REGISTERING_FOR = "/registering-for";
+export const PRIMARY_CAREGIVER = "/primary-caregiver";
+export const PRIMARY_CAREGIVER_DETAILS = "/primary-caregiver-details";
+export const PRIMARY_CAREGIVER_CONTACTS = "/primary-caregiver-contacts";
+export const IS_WANT_SECONDARY_CAREGIVER = "/is-want-secondary-caregiver";
+export const SECONDARY_CAREGIVER = "/secondary-caregiver";
+export const SECONDARY_CAREGIVER_ADDRESS = "/secondary-caregiver-address";
+export const SECONDARY_CAREGIVER_CONTACT = "/secondary-caregiver-contact";
+export const CHILD_INFORMATION = "/child-information";
+export const CHILD_HAS_SCHOOL = "/child-has-school";
+export const CHILD_SCHOOL_DETAILS = "/child-school-details";
+export const REGISTRATION_UPLOAD_DOCS = "/registrations-upload-docs";
+export const REGISTRATION_REVIEW_INFO = "/registration-review-info";
+export const REGISTRATION_CONSENT = "/registration-consent";
+export const REGISTRATION_SUBMIT = "/registration-submit";
+export const UPLOAD_DOCUMENTS = "/upload-documents";
+
+// Public secure
+export const PS_LANDING = "/ps/landing";
+export const PS_HOME = "/ps/home";
+export const PS_SECUREKEY = "/ps/securekey";
+export const PS_SIGNIN = "/ps/signin";
+export const PS_CHECK_EMAIL = "/ps/check-email";
+export const PS_TERMS = "/ps/terms";
+export const PS_REGISTER = "/ps/register";
+export const PS_FORGOTPASSWORD = "/ps/forgot-password";
+export const PS_SECURITYQUESTIONS = "/ps/security-questions";
+export const PS_REGCOMPLETE = "/ps/reg-complete";

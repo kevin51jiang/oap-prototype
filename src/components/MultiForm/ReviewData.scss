@@ -1,0 +1,21 @@
+.review-data {
+  label {
+    // font-style: italic;
+    display: inline;
+  }
+  .entries {
+    border-left: 4px solid black;
+    background-color: #f2f2f2;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    .entry {
+      display: block;
+      padding: 0.5rem 1rem;
+      border-bottom: 1px solid #999999;
+      &:last-of-type {
+        // background-color: red;
+        border-bottom: none;
+      }
+    }
+  }
+}

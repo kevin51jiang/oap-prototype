@@ -1,0 +1,42 @@
+.unread {
+  border-left: 4px solid #cd0000;
+}
+
+.message {
+  border-top: 1px solid #666;
+
+  &:last-of-type {
+    border-bottom: 1px solid #666;
+  }
+}
+
+.title {
+  display: inline;
+  justify-self: left;
+
+  flex: 1;
+}
+.date {
+  display: inline-flex;
+  justify-self: right;
+  flex: 0 1;
+  color: #666;
+  white-space: nowrap;
+}
+.lineClamp1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.lineClamp2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.link {
+  display: inline-block;
+}

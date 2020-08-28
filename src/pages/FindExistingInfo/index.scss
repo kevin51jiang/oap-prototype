@@ -1,0 +1,15 @@
+.find-existing-info {
+  .ontario-accordion {
+    .ontario-accordion-button {
+      font-size: 16px;
+      padding: 8px;
+      span span {
+        font-weight: normal;
+        text-decoration: underline;
+      }
+    }
+    .ontario-accordion-wrapper {
+      border-bottom: none;
+    }
+  }
+}

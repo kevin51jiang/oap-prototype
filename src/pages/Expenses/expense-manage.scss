@@ -1,0 +1,12 @@
+.expense-manage {
+  .expense-line {
+    display: flex;
+    .desc {
+      justify-self: start;
+      flex: 1;
+    }
+    .val {
+      justify-self: end;
+    }
+  }
+}

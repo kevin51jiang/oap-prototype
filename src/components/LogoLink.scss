@@ -1,0 +1,30 @@
+.logo-link {
+  .title-container {
+    font-size: 20px;
+    line-height: 2rem;
+    .icon-container {
+      display: inline-block;
+      height: 2rem;
+      width: 2rem;
+      background-color: #000;
+      border-radius: 100%;
+      .icon {
+        display: block;
+        margin: 0.25rem;
+        height: 1.5rem;
+        width: 1.5rem;
+        color: white;
+      }
+    }
+    span {
+      align-content: center;
+      vertical-align: middle;
+    }
+    a {
+      text-decoration: none;
+      &:visited {
+        color: #0066cc;
+      }
+    }
+  }
+}
